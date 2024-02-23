@@ -27,7 +27,7 @@ async function waitForAllInit() {
         mAlert(`Automatycznie wyłączono zapisywanie lootów w Dodatku Globalnym. Chcesz odświeżyć grę teraz, czy  później?`, [{
                 txt: "Teraz",
                 callback: function() {
-                    window.pageReload();
+                    location.reload();
                 }
             }, {
                 txt: "Później",
