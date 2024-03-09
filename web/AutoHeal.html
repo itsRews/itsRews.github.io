@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="pl">
+
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>[Rews] Spis Dodatków - Auto Heal</title>
+        <link href="https://itsrews.github.io/web/main.css" rel="stylesheet" type="text/css" />
+    </head>
+
+    <body>
+        <div id='topBar'>
+            <h1 style='margin-left: 30px;'><a href="https://itsrews.github.io/web/main.html">Spis Dodatków -</a> Auto Heal</h1>
+        </div>
+
+        <div id='mainPart'>
+            <h1>Krótki opis</h1>
+            <p>Dodatek automatycznie używa przedmiotów leczących.</p>
+
+            <h1>Uwagi</h1>
+            <p>DODATEK JEST ZEPSUTY.</p>
+            <p>Czasami może wyleczyć, ale często po jakimś czasie przestaje, więc zalecam korzystanie z innego autoheala.</p>
+
+            <h1>Ustawienia</h1>
+            <img src="https://i.imgur.com/kaHhaIr.png">
+            <p>"Używaj Full Healów:" - Dodatek będzie używać potek które mają pełne leczenie.</p>
+            <p>"Używaj %'towych Healów:" - Dodatek będzie używać potek które leczą % hp.</p>
+            <p>"Minimalny heal potek:" - Dodatek będzie używać tylko potek które leczą powyżej tej wartości.</p>
+            <p>"Lecz poniżej % HP:" - Dodatek zacznie używać potek gdy masz poniżej tego % hp.</p>
+            <p>"Zawsze lecz do 100%:" - Dodatek zignoruje zasadę wyżej, i wyleczy do 100% gdy nie masz.</p>
+        </div>
+
+    </body>
+
+    <script>
+        var link = document.createElement('link');
+        link.setAttribute('rel', 'stylesheet');
+        link.setAttribute('type', 'text/css');
+        link.setAttribute('href', 'https://fonts.googleapis.com/css2?family=Krub:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;1,200;1,300;1,400;1,500;1,600;1,700&display=swap');
+        document.head.appendChild(link);
+    </script>
+
+</html>   
